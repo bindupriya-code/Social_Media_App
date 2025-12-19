@@ -1,7 +1,9 @@
-Full-Stack Social Media App-Mern
+<h1>Full-Stack Social Media App-Mern</h1>
+
 This is a full-stack web application designed to demonstrate key concepts in modern web development, including user authentication, post management, and robust data handling. It features a Node.js/Express backend with MongoDB, and a React frontend 
 
 Purpose
+
 This project is for demonstrative purposes only and is not intended for real-world, production-grade use.
 
 It showcases a full-stack social media application built with a Node.js/Express backend and a React/TypeScript frontend. The application's architecture emphasizes data integrity and consistency by using MongoDB transactions for critical operations like post creation, user deletion, and post interactions. This ensures that related database updates either all succeed or all fail together, maintaining a reliable state.

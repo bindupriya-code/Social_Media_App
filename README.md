@@ -2,7 +2,7 @@
 
 This is a full-stack web application designed to demonstrate key concepts in modern web development, including user authentication, post management, and robust data handling. It features a Node.js/Express backend with MongoDB, and a React frontend 
 
-Purpose
+<h2>Purpose</h2>
 
 This project is for demonstrative purposes only and is not intended for real-world, production-grade use.
 
@@ -10,7 +10,7 @@ It showcases a full-stack social media application built with a Node.js/Express 
 
 Security is handled through bcrypt for password hashing, jsonwebtoken for session management, and DOMPurify for sanitizing user-generated content against XSS attacks.
 
-Features
+<h2>Features</h2>
 User Authentication: Secure registration, login, and logout using JWT.
 User Management: Change password, delete account (with post anonymization).
 Post Management: Create, view, and delete posts.
@@ -18,7 +18,8 @@ Post Interaction: Like and unlike posts.
 Dynamic Content Loading: Posts are fetched with infinite scrolling/pagination.
 User Avatars: Automatically generated avatars for users.
 Input Validation: Client-side and server-side validation for user inputs.
-Technologies
+<h2>Technologies</h2>
+
 Backend
 Node.js & Express.js
 MongoDB Atlas (Database) & Mongoose (ODM)
@@ -33,7 +34,7 @@ Axios (HTTP client)
 Getting Started
 Follow these steps to set up and run the project locally.
 
-Clone the repository:
+<h2>Clone the repository:</h2>
 
 Backend Setup: Navigate to the server directory and install dependencies:
 
@@ -48,6 +49,7 @@ Replace "a_very_long_and_random_secret_key_for_jwt" with a strong, random string
 Start the backend server:
 
 npm run dev
+
 The server will run on https://localhost:3443.
 
 Frontend Setup: Open a new terminal, navigate back to the project root, and then into the client directory:
@@ -60,13 +62,10 @@ Create a .env file in the client directory with the following content:
 VITE_API_BASE_URL="https://localhost:3443/api"
 This tells the frontend where to find your backend API.
 
-Start the frontend development server:
+<h2>Start the frontend development server:</h2>
 
 npm run dev
 The frontend will typically run on http://localhost:5173.
 
-Security Notice
-This project is for demonstrative purposes only and is not intended for real-world, production-grade, or security-sensitive use. While efforts have been made to implement security best practices, it has not undergone formal security audits.
-
-License
+<h2>License</h2>
 This project is provided under the MIT License. See the LICENSE file in the repository root for details
